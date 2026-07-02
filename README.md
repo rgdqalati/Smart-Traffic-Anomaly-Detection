@@ -2,11 +2,13 @@
 
 ![](IMG_7362_page-0001.jpeg)
 
+---
+
 ## Overview
 
 This project presents a machine learning-based anomaly detection system designed to protect smart city traffic lights from slow data poisoning attacks.
 
-The proposed solution combines an LSTM Autoencoder with a Digital Twin architecture to continuously monitor traffic behavior, detect abnormal patterns in real time, and support rapid recovery to maintain efficient and reliable traffic operations.
+The proposed framework combines Digital Twin technology, Reinforcement Learning (RL), Watermark Defense, and an LSTM Autoencoder to monitor traffic behavior, detect anomalies in real time, and automatically restore normal traffic operation after an attack.
 
 ---
 
@@ -14,7 +16,12 @@ The proposed solution combines an LSTM Autoencoder with a Digital Twin architect
 
 ![](IMG_7365.jpeg)
 
-The system integrates traffic simulation, AI-based anomaly detection, Digital Twin monitoring, and mitigation mechanisms into a unified architecture capable of detecting and responding to cyberattacks affecting smart traffic lights.
+The system consists of two main components:
+
+- Main Traffic Control System
+- Digital Twin Monitoring & Detection System
+
+Together, they continuously monitor traffic behavior, detect abnormal activities, and recover the traffic network when an attack is identified.
 
 ---
 
@@ -22,7 +29,13 @@ The system integrates traffic simulation, AI-based anomaly detection, Digital Tw
 
 ![](IMG_7363.jpeg)
 
-A custom monitoring dashboard was developed to visualize the live traffic simulation, system status, anomaly detection results, traffic metrics, and recovery process through an interactive interface.
+The dashboard provides a real-time visualization of the traffic simulation, attack status, anomaly detection process, and recovery actions.
+
+### Dashboard Demo
+
+🎥 **Watch the dashboard demonstration**
+
+[▶️ Dashboard Demo](2ba69c6e-7c12-472f-987f-3161feaac4d7.mov)
 
 ---
 
@@ -30,11 +43,11 @@ A custom monitoring dashboard was developed to visualize the live traffic simula
 
 ![](IMG_7367.png)
 
-The workflow begins with collecting traffic data from the SUMO simulator, preprocessing the data, applying watermark validation, generating sequential inputs for the LSTM Autoencoder, detecting anomalies, and automatically initiating the recovery process whenever an attack is detected.
+The workflow illustrates the complete AI detection pipeline, beginning with traffic data collection, preprocessing, watermark validation, LSTM-based anomaly detection, attack identification, and automatic recovery.
 
 ---
 
-## Technologies Used
+## Technologies
 
 - Python
 - TensorFlow
@@ -42,37 +55,27 @@ The workflow begins with collecting traffic data from the SUMO simulator, prepro
 - SUMO
 - OMNeT++
 - LSTM Autoencoder
-- Machine Learning
-- Deep Learning
+- Reinforcement Learning (RL)
 - Digital Twin
-- Reinforcement Learning
-
----
-
-## Key Features
-
-- Real-time anomaly detection
-- Slow data poisoning attack detection
-- Digital Twin monitoring
-- LSTM Autoencoder model
-- Smart traffic simulation using SUMO
-- Interactive monitoring dashboard
-- Automatic mitigation and recovery
-- AI-powered traffic monitoring
+- Watermark Defense
+- Tkinter
 
 ---
 
 ## Project Highlights
 
-- 🏆 Selected among the **Top 5 Graduation Projects**
-- 🤖 AI-based cybersecurity solution for smart traffic systems
-- 🚦 Intelligent traffic monitoring and anomaly detection
-- 📊 Interactive real-time visualization dashboard
+- ✅ Machine Learning-based anomaly detection.
+- ✅ Detection of slow data poisoning attacks.
+- ✅ Digital Twin for traffic behavior monitoring.
+- ✅ Real-time traffic simulation using SUMO.
+- ✅ Interactive traffic security dashboard.
+- ✅ Automatic attack detection and recovery.
+- ✅ Selected among the **Top 5 Graduation Projects**.
 
 ---
 
 ## Repository Notice
 
-The source code is not publicly available.
+The source code is **not publicly available**.
 
-This repository is intended to showcase the project overview, system architecture, workflow, dashboard, technologies, and project outcomes.
+This repository provides an overview of the project, system architecture, dashboard, workflow, and selected project materials.
